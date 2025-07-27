@@ -1,26 +1,22 @@
 # draw-with-me
 
-**draw-with-me** is an interactive drawing project built with Processing that lets you create art by moving your mouse.
-
-## Overview
-
-This sketch tracks your mouse movements in real-time and draws smooth, flowing lines following the cursor. It’s a simple but expressive tool to visualize your gestures as generative art.
+## Description
+An interactive Processing sketch that lets you draw by moving your mouse. The program follows your mouse movements and creates smooth, fluid lines in real time. You can pause and resume the drawing with keyboard input, making it a fun and dynamic creative tool.
 
 ## Features
+- Real-time drawing that follows your mouse movements.
+- Smooth, fluid line rendering for natural strokes.
+- Toggle drawing on/off using the spacebar.
+- Multiple colors and stroke dynamics (can be added/extended).
 
-- Draw continuously by moving your mouse across the canvas.
-- Smooth lines created using curve vertices for a natural look.
-- Drawing starts automatically and follows the mouse position.
-- Click or interact with the canvas to reset or add effects (optional, depending on implementation).
+## How to Use
+1. Run the sketch in Processing.
+2. Move your mouse on the canvas to draw.
+3. Press the spacebar to pause/resume drawing.
+4. Close the window to end the program.
 
-## Contribution
+## Tech Stack
+- Processing (Java-based creative coding framework)
 
-Feel free to fork the project and experiment by adding new features like color changes, pressure simulation, or brush effects.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Created by [mdlnvere](https://github.com/mdlnvere)
+## Purpose
+This project is designed to explore interactive drawing techniques and user input in Processing. It’s perfect for artists and developers interested in dynamic, user-driven generative art.
